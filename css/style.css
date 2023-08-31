@@ -1,4 +1,9 @@
 /****** General ***********/
+@font-face {
+    font-family: Raleway;
+    src: url(/fonts/Raleway/Raleway-VariableFont_wght.ttf);
+  }
+
 * {
     font-family: 'Raleway', sans-serif;
 }
