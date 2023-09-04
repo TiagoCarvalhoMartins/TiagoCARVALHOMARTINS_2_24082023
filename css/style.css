@@ -41,6 +41,39 @@ a {
     font-size: 22px;
 }
 
+/******Header***********/
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 20px;
+    padding: 30px;
+    padding-left: 0;
+}
+
+ul {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+ul li {
+    margin-right: 0px;
+    margin-top: 0;
+    padding: 15px 25px 10px 50px;
+    list-style-type: none;
+
+}
+
+li .actif {
+    padding-top: 10px;
+    border-top: #0065FC solid 1px;
+    color: #0065FC
+}
+
 .card {
     background-color: white;
     border-radius: 20px;
@@ -78,7 +111,7 @@ a {
 }
 
 /****** Hebergements ***********/
-.hebergements {
+#hebergements {
     width: 65%;
 }
 
