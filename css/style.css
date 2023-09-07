@@ -161,8 +161,33 @@ form button {
     font-size: 17px;
 }
 
+.containerInformation {
+    display: flex;
+    align-items: center;
+}
+
+.fas.fa-info {
+    color: #0065FC;
+    padding: 5px;
+    border: solid #D9D9D9 1px;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    margin-right: 15px;
+}
+
 
 /****** Card ***********/
+
+.hebergements-and-populaires h3 {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.hebergements-and-populaires p {
+    font-size: 14px;
+}
 
 .card {
     background-color: white;
@@ -297,6 +322,46 @@ form button {
 
 .populaires-cards .card-rating {
     margin-bottom: 5px;
+}
+
+/**************** Activités *************/
+
+.container-activites {
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.container-activites .card {
+    width: 300px;
+    height: 440px;
+    margin-right: 25px;
+}
+
+.container-activites .card img {
+    height: 390px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/******** Footer ************/
+
+footer {
+    background-color: #D9D9D9;
+    display: flex;
+    margin-top: 50px;
+    padding-left: 15px;
+}
+
+.footerColumnFlex {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.footerColumnFlex a {
+    margin-bottom: 15px;
 }
 
 
