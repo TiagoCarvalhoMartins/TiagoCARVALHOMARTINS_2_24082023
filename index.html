@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booki</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleTablet.css">
+    <link rel="stylesheet" href="./css/stylePhone.css">
 </head>
 <body>
     <div class="main-container">
@@ -13,8 +15,8 @@
             <img src="./images/logo/Booki@3x.png" alt="Logo Booki" id="logo">
             <nav class="anchors">
                 <ul>
-                    <li><a href="#hebergements" class="hevergement_ancre actif">Hébergements</a></li>
-                    <li><a href="#activites" class="activites_ancre">Activités</a></li>
+                    <li class="hebergements-ancre"><a href="#hebergements" class="actif">Hébergements</a></li>
+                    <li class="activites-ancre"><a href="#activites">Activités</a></li>
                 </ul>
             </nav>
         </header>
@@ -38,19 +40,19 @@
                         <div class="container-filterButton">
                             <button class="filterButton">
                                 <i class="fas fa-money-bill-wave"></i>
-                                <h3>Économique</h3>
+                                <span class="textButton">Économique</span>
                             </button>
                             <button class="filterButton">
                                 <i class="fas fa-child"></i>
-                                <h3>Familial</h3>
+                                <span class="textButton">Familial</span>
                             </button>
                             <button class="filterButton">
                                 <i class="fas fa-heart"></i>
-                                <h3>Romantique</h3>
+                                <span class="textButton">Romantique</span>
                             </button>
                             <button class="filterButton">
                                 <i class="fa-solid fa-fire"></i>
-                                <h3>Nos pépites</h3>
+                                <span class="textButton">Nos pépites</span>
                             </button>
                         </div>
                     </div>
@@ -58,6 +60,7 @@
                         <i class="fas fa-info"></i>
                         <p>Plus de 500 logements sont disponible dans cette ville</p>
                     </div>
+                </div>
                 <div class="hebergements-and-populaires">
                     <section id="hebergements">
                         <h2 class="section-title">Hébergements à Marseille</h2>
@@ -179,7 +182,6 @@
                         </div>
                         <h3>Afficher plus</h3> 
                     </section>
-    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------->
                     <section class="populaires">
                         <div class="populaires-title">
                             <h2 class="section-title">Les plus populaires</h2>
