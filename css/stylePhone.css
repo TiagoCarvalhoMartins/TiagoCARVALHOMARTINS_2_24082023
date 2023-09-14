@@ -85,6 +85,7 @@
     .filterButton {
         width: 157px;
         height: 50px;
+        margin-bottom: 15px;
     }
 
     .filterButton .textButton {
@@ -146,10 +147,13 @@
 
     #activites {
         margin: 40px 10px;
+        padding: 0px;
     }
 
     .container-activites {
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
     a {
@@ -159,9 +163,11 @@
 
     .container-activites a{
         margin: 15px 10px;
+        width: 95%;
     }
 
     .container-activites .card {
+        margin-right: 10px;
         width: 100%;
     }
 
