@@ -39,7 +39,6 @@
     }
 
     ul li {
-        padding: 10px 50px 10px 50px;
         font-size: 1em;
         text-align: center;
     }
@@ -54,7 +53,8 @@
         flex: 1;
         border-top : none;
         border-bottom: #0065FC solid 1px;
-        color: #0065FC
+        color: #0065FC;
+        padding-left: 25px;
     }
 
     li .actif {
@@ -78,7 +78,8 @@
     }
 
     .container-filterButton {
-        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
     }
 
     .filterButton {
@@ -94,6 +95,12 @@
 
     .hebergements-and-populaires {
         flex-direction: column-reverse;
+    }
+
+    .hebergements-cards {
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     }
 
     /****** Populaires ***********/
