@@ -42,14 +42,14 @@
         font-size: 1em;
         text-align: center;
     }
-    ul .activites-ancre{
+    ul li{
         flex: 1;
         list-style-type: none;
         border-bottom: #D9D9D9 solid 1px;
     
     }
 
-    ul .hebergements-ancre {
+    ul li:hover {
         flex: 1;
         border-top : none;
         border-bottom: #0065FC solid 1px;
@@ -57,7 +57,7 @@
         padding-left: 25px;
     }
 
-    li .actif {
+    li a:hover {
         border-top: none;
     }
 
