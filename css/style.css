@@ -72,7 +72,7 @@ ul li {
 
 }
 
-li .actif {
+li a:hover {
     padding-top: 10px;
     border-top: #0065FC solid 1px;
     color: #0065FC

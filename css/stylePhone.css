@@ -83,14 +83,20 @@
     }
 
     .filterButton {
-        width: 157px;
+        width: 49%;
         height: 50px;
         margin-bottom: 15px;
+        margin-right: 0;
     }
 
     .filterButton .textButton {
         font-size: 14px;
     }
+
+    .filterColumn {
+        justify-content: space-between;
+    }
+
 
     /****** Hebergements And Populaires ***********/
 
